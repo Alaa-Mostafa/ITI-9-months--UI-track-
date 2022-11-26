@@ -1,0 +1,17 @@
+.image_row_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_div
+{
+    margin-top: 10%;
+    text-align: center;
+}
+
+h2
+{
+    color: purple;
+}
