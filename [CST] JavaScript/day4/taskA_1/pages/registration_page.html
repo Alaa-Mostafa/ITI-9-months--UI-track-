@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Registration Page</title>
+
+</head>
+
+<body>
+
+    <table cellpadding="4">
+
+        <!-- The registration form should contains fields for name, email, password, job title, 
+            mobile, gender, and address. -->
+
+        <form action="./welcoming_page.html">
+
+            <!---- name ---->
+            <tr> 
+                <td>
+                    <label> Name </label> 
+                </td>
+            
+                <td>
+                    <input type="text" name="name" value=""/>
+                </td>
+            </tr>
+
+
+            <!---- email ---->
+            <tr> 
+                <td>
+                    <label> Email </label> 
+                </td>
+                    
+                <td>
+                    <input type="email" name="email" value=""/>
+                </td>
+            </tr>
+
+
+            <!---- password ---->
+            <tr> 
+                <td>
+                    <label> Password </label> 
+                </td>
+                    
+                <td>
+                    <input type="password" name="password" value=""/>
+                </td>
+            </tr>
+
+
+            <!---- job_title ---->
+            <tr> 
+                <td>
+                    <label> Job title </label> 
+                </td>
+                    
+                <td>
+                    <input type="text" name="job_title" value=""/>
+                </td>
+            </tr>
+
+            <!---- mobile ---->
+            <tr> 
+                <td>
+                    <label> Mobile </label> 
+                </td>
+                    
+                <td>
+                    <input type="number" name="mobile" value=""/>
+                </td>
+            </tr>
+
+            <!---- gender ---->
+            <tr> 
+                <td  rowspan="2">
+                    <label> Gender </label> 
+                </td>
+            </tr> 
+
+            <tr> 
+                <td>
+                    <input type="radio" name="gender" value="male"/> Male
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="female"/> Female
+                </td>
+            </tr>
+
+            <!---- address ---->
+            <tr> 
+                <td>
+                    <label> Address </label> 
+                </td>
+                    
+                <td>
+                    <input type="text" name="address" value=""/>
+                </td>
+            </tr>
+
+            <tr> 
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr> 
+
+        </form>
+    </table>
+
+</body>
+
+</html>
