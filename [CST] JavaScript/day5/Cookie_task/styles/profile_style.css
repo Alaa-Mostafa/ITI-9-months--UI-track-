@@ -1,0 +1,14 @@
+
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+h2
+{
+    margin-left: 30px;
+}

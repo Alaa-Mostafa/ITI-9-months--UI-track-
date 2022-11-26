@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Register </title>
+</head>
+
+<body>
+
+    <div>
+        <label> Enter your name: </label>
+        <input type="text" name="userName"/>
+    </div>
+
+    <br/>
+
+    <div>
+        <label> Enter your age: </label>
+        <input type="number" name="age"/>
+    </div>
+
+    <br/>
+
+    <div>
+        <label> Select your gender </label> <br/>
+            
+        <input type="radio" name="gender" value="male"/> <img src="../images/1.jpg" height="200"/>
+        <input type="radio" name="gender" value="female" /> <img src="../images/2.jpg" width="200"/>
+
+    </div>
+        
+    <br/>
+
+    <div>
+        <label> Select your favourite color </label> 
+        <select name="color"> 
+            <option value="red"> Red </option>
+            <option value="green"> Green </option>
+            <option value="blue"> Blue </option>
+        </select>
+    </div>
+
+    <br/>
+
+    <div>
+        <input type="button" value="register" onclick="open_welcome_page()"></button>
+    </div>
+
+    <script src="../scripts/cookie_functions.js"></script>
+    <script src="../scripts/registeration.js"></script>
+</body>
+
+</html>
