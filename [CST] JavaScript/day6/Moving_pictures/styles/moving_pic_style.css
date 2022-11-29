@@ -1,0 +1,39 @@
+
+#pictures_div
+{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    border: 2px solid salmon;
+}
+
+#icon2
+{
+    position: absolute;
+    left: 350px;
+    margin-top: 40%;
+}
+
+#icon1
+{
+    position: absolute;
+    left: 0px;
+    margin-top: 40%;
+}
+
+#top
+{
+    position: absolute;
+    bottom: 0px;
+}
+
+#buttons_div
+{
+    margin-top: 10px;
+}
+
+h3
+{
+    color: blue;
+}
